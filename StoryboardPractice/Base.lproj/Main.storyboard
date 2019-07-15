@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="01U-Ql-pOz">
+            <objects>
+                <viewController id="kJz-Re-oUc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kzl-4I-dDw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1bec9ec74aac91e70b3ef91fee1fc0f9" translatesAutoresizingMaskIntoConstraints="NO" id="yFq-ln-3xN">
+                                <rect key="frame" x="15" y="59" width="384" height="788"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beach view 😍" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLA-z4-fLA">
+                                <rect key="frame" x="125" y="169" width="164" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WvP-fa-l73" firstAttribute="trailing" secondItem="hLA-z4-fLA" secondAttribute="trailing" constant="125" id="BSJ-0d-3Ip"/>
+                            <constraint firstItem="WvP-fa-l73" firstAttribute="bottom" secondItem="hLA-z4-fLA" secondAttribute="bottom" constant="800" id="IkH-JT-bpw"/>
+                            <constraint firstItem="hLA-z4-fLA" firstAttribute="top" secondItem="WvP-fa-l73" secondAttribute="top" constant="125" id="MLm-87-v61"/>
+                            <constraint firstItem="yFq-ln-3xN" firstAttribute="leading" secondItem="WvP-fa-l73" secondAttribute="leading" constant="15" id="Mgq-45-NSL"/>
+                            <constraint firstItem="yFq-ln-3xN" firstAttribute="top" secondItem="WvP-fa-l73" secondAttribute="top" constant="15" id="O7k-TC-nko"/>
+                            <constraint firstItem="WvP-fa-l73" firstAttribute="bottom" secondItem="yFq-ln-3xN" secondAttribute="bottom" constant="15" id="S21-QD-dXT"/>
+                            <constraint firstItem="WvP-fa-l73" firstAttribute="trailing" secondItem="yFq-ln-3xN" secondAttribute="trailing" constant="100" id="XoX-Ae-qEf"/>
+                            <constraint firstItem="WvP-fa-l73" firstAttribute="bottom" secondItem="hLA-z4-fLA" secondAttribute="bottom" constant="675" id="eTW-jZ-XUr"/>
+                            <constraint firstItem="WvP-fa-l73" firstAttribute="trailing" secondItem="yFq-ln-3xN" secondAttribute="trailing" constant="15" id="eqS-dG-v4E"/>
+                            <constraint firstItem="hLA-z4-fLA" firstAttribute="leading" secondItem="WvP-fa-l73" secondAttribute="leading" constant="125" id="v0Y-c7-Q8w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WvP-fa-l73"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9j-Ly-t8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1bec9ec74aac91e70b3ef91fee1fc0f9" width="2560" height="2560"/>
+    </resources>
+</document>
